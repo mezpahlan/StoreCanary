@@ -3,19 +3,19 @@ package uk.co.mezpahlan.storecanary
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import uk.co.mezpahlan.storecanary.databinding.ActivityMainBinding
+import uk.co.mezpahlan.storecanary.databinding.ActivitySecondaryBinding
 
-class MainActivity : AppCompatActivity() {
+class SecondaryActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivitySecondaryBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivitySecondaryBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.button.setOnClickListener {
-            startActivity(Intent(this, SecondaryActivity::class.java))
+            startActivity(Intent(this, MainActivity::class.java))
         }
     }
 }
