@@ -46,7 +46,7 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment-ktx:2.3.0'
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.0'
 
-    implementation 'com.dropbox.mobile.store:store4:4.0.0-alpha07'
-    implementation 'com.dropbox.mobile.store:store-rx2:4.0.0-alpha07'
+    implementation 'com.dropbox.mobile.store:store4:4.0.0-alpha06'
+    implementation 'com.dropbox.mobile.store:store-rx2:4.0.0-alpha06'
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.4'
 }
